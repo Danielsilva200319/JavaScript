@@ -51,34 +51,36 @@
     // Array = [
     //     2,4,6,8,10
     // ]
-// 15-08-2023
-class Persona{
-    constructor(nombre, edad){
-        this.nombre = nombre;
-        this.edad = edad;
-    }
-    saludar(){
-        console.log('Hola! Mi nombre es: $(this.nombre) y tengo $(this.edad)')
-    }
-}
-const persona1 = new Persona("Camilo",19);
-const persona2 = new Persona("Mariana",17);
-persona1.saludar()
-persona2.saludar() 
 
-// new
-class Node{
-    constructor(value){
-        this.value=value;
-        this.next=null;
-    }
-}
-class stack{
-    constructor(){
-        this.top=null;
-        this.size=0;
-    }
-    push(value){
-        
-    }
-}
+// 15-08-2023
+
+    // class Persona{
+    //     constructor(nombre, edad){
+    //         this.nombre = nombre;
+    //         this.edad = edad;
+    //     }
+    //     saludar(){
+    //         console.log('Hola! Mi nombre es: $(this.nombre) y tengo $(this.edad)')
+    //     }
+    // }
+    // const persona1 = new Persona("Camilo",19);
+    // const persona2 = new Persona("Mariana",17);
+    // persona1.saludar()
+    // persona2.saludar() 
+
+    // // new
+    // class Node{
+    //     constructor(value){
+    //         this.value=value;
+    //         this.next=null;
+    //     }
+    // }
+    // class stack{
+    //     constructor(){
+    //         this.top=null;
+    //         this.size=0;
+    //     }
+    //     push(value){
+            
+    //     }
+    // }
